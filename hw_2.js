@@ -32,17 +32,7 @@
 //   console.log(`Результат множення дорівнює ${x * y * z}`);
 // }
 
-// // ✅ Працює виклик після оголошення
-// multiply(4, 5, 6);
-
-// function getExtremeElements(array) {
-//   //   // Change code below this line
-//   const array = [1, 2, 3, 4, 5];
-
-//   array = [0, array.length - 1];
-
-//   //   // Change code above this line
-// }
+// ✅ Працює виклик після оголошення
 
 //let array = [1, 2, 3, 4, 5];
 //
@@ -117,3 +107,100 @@
 //   }
 //   return evenNumbers;
 // }gi
+
+// const apartment = {
+//   descr: 'Spacious apartment in the city center',
+//   rating: 4,
+//   price: 2153,
+// };
+// const values = [];
+// // Change code below this line
+// const keys = Object.keys(apartment);
+
+// for (value of values) {
+//   values.push(apartment[value]);
+// }
+
+// console.log(values);
+// console.log(keys);
+
+// const apartment = {
+//   descr: 'Spacious apartment in the city center',
+//   rating: 4,
+//   price: 2153,
+// };
+// const keys = [];
+// const values = [];
+// // Change code below this line
+
+// for (const key in apartment) {
+//   keys.push(key);
+//   values.push(apartment[key]);
+// }
+
+// console.log(values);
+// console.log(keys);
+
+// const feedback = {
+//   good: 5,
+//   neutral: 10,
+//   bad: 3,
+// };
+
+// // let totalFeedback = 0;
+
+// const keys = Object.keys(feedback);
+
+// console.log(keys);
+
+// for (const key of keys) {
+//   console.log(key);
+//   console.log(feedback[key]);
+
+//   totalFeedback += feedback[key];
+// }
+
+// console.log('totalFeedback: ', totalFeedback);
+
+// const values = Object.values(feedback);
+
+// console.log(values);
+
+// for (const value of values) {
+//   console.log(value);
+
+//   totalFeedback += value;
+// }
+
+// console.log('totalFeedback: ', totalFeedback);
+
+// const colors = [
+//   { hex: '#f44336', rgb: '244,67,54' },
+//   { hex: '#2196f3', rgb: '33,150,243' },
+//   { hex: '#4caf50', rgb: '76,175,80' },
+//   { hex: '#ffeb3b', rgb: '255,235,59' },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// // Change code below this line
+// for (let color of colors) {
+//   console.log(colors);
+
+//   hexColors.push(color.hex);
+//   rgbColors.push(color.rgb);
+// }
+// console.log(hexColors);
+// console.log(rgbColors);
+
+const products = [
+  { name: 'Radar', price: 1300, quantity: 4 },
+  { name: 'Scanner', price: 2700, quantity: 3 },
+  { name: 'Droid', price: 400, quantity: 7 },
+  { name: 'Grip', price: 1200, quantity: 9 },
+];
+
+function getProductPrice(productName) {
+  // Change code below this line
+  // Change code above this line
+}
