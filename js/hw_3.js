@@ -62,7 +62,7 @@ const atTheOldToad = {
         return `Error! Potion ${newPotion} is already in your inventory!`;
       }
     }
-    const newPotion = {
+    const newProduct = {
       ...newPotion,
     };
     this.potions.push(newPotion);
