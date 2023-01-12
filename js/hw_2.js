@@ -38,6 +38,7 @@
 // // 4
 // // Change code below this line
 // const fruits = ['apple', 'plum', 'pear', 'orange'];
+
 // // 5
 // const fruits = ['apple', 'plum', 'pear', 'orange'];
 
@@ -45,6 +46,7 @@
 // const firstElement = 'apple';
 // const secondElement = 'plum';
 // const lastElement = 'orange';
+
 // // 6
 // const fruits = ['apple', 'plum', 'pear', 'orange'];
 // fruits[1] = 'peach';
