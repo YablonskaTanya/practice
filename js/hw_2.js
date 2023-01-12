@@ -38,6 +38,7 @@
 // // 4
 // // Change code below this line
 // const fruits = ['apple', 'plum', 'pear', 'orange'];
+
 // // 5
 // const fruits = ['apple', 'plum', 'pear', 'orange'];
 
@@ -45,6 +46,7 @@
 // const firstElement = 'apple';
 // const secondElement = 'plum';
 // const lastElement = 'orange';
+
 // // 6
 // const fruits = ['apple', 'plum', 'pear', 'orange'];
 // fruits[1] = 'peach';
@@ -89,6 +91,7 @@
 
 //   // Change code above this line
 // }
+
 // // 12
 // function makeStringFromArray(array, delimiter) {
 //   let string;
@@ -99,10 +102,38 @@
 //   // Change code above this line
 //   return string;
 //}
-// 13
-// 14
-// 15
-// 16
+
+// // 13
+// function slugify(title) {
+//   // Change code below this line
+//   const slug = title.toLowerCase().split(' ').join('-');
+
+//   return slug;
+//   // Change code above this line
+// }
+
+// // 14
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, fruits.length - 1);
+// const lastThreeEls = fruits.slice(-3);
+
+// // 15
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients); // Change this line
+
+// // 16
+// function makeArray(firstArray, secondArray, maxLength) {
+//   // Change the code below this line
+//   maxLength = firstArray.concat(secondArray).slice(0, maxLength);
+
+//   return maxLength;
+//   // Change code above this line
+//}
 // 17
 // 18
 // 19
