@@ -133,6 +133,18 @@
 
 //   return maxLength;
 //   // Change code above this line
+
+//16_2
+// function makeArray(firstArray, secondArray, maxLength) {
+//   // Change code below this line
+//   let newArray = firstArray.concat(secondArray);
+//   if (newArray.length >= maxLength) {
+//     return newArray.slice(0, maxLength);
+//   }
+//   return newArray;
+
+// Change code above this line
+//}
 //}
 
 // // 17
@@ -186,6 +198,21 @@
 
 //   // Change code above this line
 // }
+
+//21_2
+// function findLongestWord(string) {
+//   // Change code below this line
+//   let newString = string.split(' ');
+//   let longWord = newString[0];
+//   for (let word of newString) {
+//     if (word.length > longWord.length) {
+//       longWord = word;
+//     }
+//   }
+//   return longWord;
+//   // Change code above this line
+// }
+
 // // 22
 // function createArrayOfNumbers(min, max) {
 //   const numbers = [];
