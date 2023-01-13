@@ -197,10 +197,69 @@ function createArrayOfNumbers(min, max) {
 }
 
 // 23
+function filterArray(numbers, value) {
+  // Change code below this line
+  const newArray = [];
+  for (let i = 0; numbers.length > i; i += 1) {
+    if (numbers[i] > value) {
+      newArray.push(numbers[i]);
+    }
+  }
+  return newArray;
+
+  // Change code above this line
+}
+
 // 24
+function checkFruit(fruit) {
+  const fruits = ['apple', 'plum', 'pear', 'orange'];
+  return fruits.includes(fruit);
+  return; // Change this line
+}
+
 // 25
+function getCommonElements(array1, array2) {
+  // Change code below this line
+
+  let result = [];
+  for (let i = 0; i < array1.length; i += 1) {
+    if (array2.includes(array1[i])) {
+      result.push(array1[i]);
+    }
+  }
+  return result;
+
+  // Change code above this line
+}
+
 // 26
+function calculateTotalPrice(order) {
+  let total = 0;
+  // Change code below this line
+
+  for (const ord of order) {
+    total += ord;
+  }
+
+  // Change code above this line
+  return total;
+}
+
 // 27
+function filterArray(numbers, value) {
+  // Change code below this line
+  const filteredNumbers = [];
+
+  for (const number of numbers) {
+    if (number > value) {
+      filteredNumbers.push(number);
+    }
+  }
+
+  return filteredNumbers;
+  // Change code above this line
+}
+
 // 28
 // 28
 // 30
