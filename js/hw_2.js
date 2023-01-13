@@ -135,11 +135,67 @@
 //   // Change code above this line
 //}
 // 17
+const start = 3;
+const end = 7;
+
+for (let i = start; i <= end; i += 1) {
+  // Change this line
+  console.log(i);
+}
+
 // 18
+function calculateTotal(number) {
+  // Change code below this line
+  let sum = 0;
+  for (let i = 0; i <= number; i += 1) {
+    sum += i;
+  }
+
+  return sum;
+  // Change code above this line
+}
+
 // 19
+const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+for (let i = 0; i < fruits.length; i += 1) {
+  // Change this line
+  const fruit = fruits[i]; // Change this line
+  console.log(fruit);
+}
 // 20
+function calculateTotalPrice(order) {
+  let total = 0;
+  // Change code below this line
+  for (let i = 0; i < order.length; i += 1) {
+    total += order[i];
+  }
+  // Change code above this line
+  return total;
+}
+
 // 21
+function findLongestWord(string) {
+  // Change code below this line
+
+  const longestWord = string.split(' ').sort(function (a, b) {
+    return b.length - a.length;
+  });
+  return longestWord[0];
+
+  // Change code above this line
+}
 // 22
+function createArrayOfNumbers(min, max) {
+  const numbers = [];
+  // Change code below this line
+
+  for (let i = min; i <= max; i += 1) numbers.push(i);
+
+  // Change code above this line
+  return numbers;
+}
+
 // 23
 // 24
 // 25
