@@ -463,6 +463,23 @@
 //   // Change code above this line
 // }
 
+// //30/2
+// function makeTask(data) {
+//   const completed = false;
+//   const category = 'General';
+//   const priority = 'Normal';
+//   // Change code below this line
+//   let res = {
+//     category,
+//     priority,
+//     ...data,
+//     completed,
+//   };
+
+//   return res;
+//   // Change code above this line
+// }
+
 // 31;
 // // Change code below this line
 // function add(...args) {
