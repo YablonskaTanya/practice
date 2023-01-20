@@ -71,3 +71,17 @@
 // pizzaPalace.order('Four meats', makePizza, onOrderError);
 // pizzaPalace.order('Big Mike', makePizza, onOrderError);
 // pizzaPalace.order('Vienna', makePizza, onOrderError);
+
+//5
+
+// function calculateTotalPrice(orderedItems) {
+//   let totalPrice = 0;
+//   // Change code below this line
+
+//   orderedItems.forEach(function (number, i) {
+//     totalPrice += orderedItems[i];
+//   });
+
+//   // Change code above this line
+//   return totalPrice;
+// }
