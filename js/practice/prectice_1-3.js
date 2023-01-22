@@ -1,14 +1,47 @@
 //==============================================================================
 //1// Якщо змінна a дорівнює 10, виведіть 'Вірно', інакше виведіть 'Невірно'.
 
+// const a = 10;
+// if (a === 10) {
+//   console.log("'Вірно'");
+// } else {
+//   console.log("'Невірно'");
+// }
+
+// const a = 10;
+// const result = a === 10 ? 'Вірно' : 'Невірно';
+// console.log(result);
+
 //2 Змінна num може набувати 4 значення: 1, 2, 3 або 4. Якщо вона має
 // значення '1', то у змінну result запишемо 'зима', якщо має значення
 // '2' - 'весна' і так далі. Розв'яжіть завдання через switch-case.
-//Напишіть код, який запитуватиме
+
+// let num = 5;
+// let resalt = '';
+// switch (num) {
+//   case 1:
+//     resalt = 'winter';
+//     break;
+//   case 2:
+//     resalt = 'spring';
+//     break;
+//   case 3:
+//     resalt = 'summer';
+//     break;
+//   case 4:
+//     resalt = 'autumn';
+//     break;
+//   default:
+//     resalt = 'Plase enter from 1 to 4';
+// }
+
+// console.log(resalt);
+
+//3 Напишіть код, який запитуватиме
 //логін за допомогою prompt і логувати результат
 //в консоль браузера
 
-//3 Якщо відвідувач вводить "Адмін",
+// Якщо відвідувач вводить "Адмін",
 //то prompt запитує пароль.
 //Якщо нічого не ввели або натиснута клавіша Esc
 //Вивести стороку "Скасовано"
@@ -19,10 +52,33 @@
 //то вивести рядок "Добрий день!"
 //інакше виводити рядок "Невірний пароль!"
 
+// const fn = function () {
+//   const login = prompt('Login?');
+//   if (login === 'Адмін') {
+//     const passsword = prompt('Password?');
+//     if (passsword === 'Я головний') {
+//       console.log('Добрий день!');
+//     } else {
+//       console.log('Невірний пароль!');
+//     }
+//   } else if (!login) {
+//     console.log('Скасовано');
+//   } else {
+//     console.log('Я вас не знаю');
+//   }
+// };
+// fn();
+
 //4
 //Напишіть функцію min(a, b), яка повертає
 //менше з чисел a, b
 //Потрібно додати перевірку, що функція отримує числа
+
+function min(a, b) {
+  return a < b ? a : b;
+}
+
+console.log(min(30, 15));
 
 // if (Math.min(a, b) === NaN) {
 //   return false;
@@ -76,4 +132,46 @@
 //removeCourse(name) видаляє курс із колекції
 //updateCourse(oldName, newName) змінює ім'я на нове
 
-///https://www.freecodecamp.org/
+// const massage = 'Hello';
+// alert(massage);
+// const isComing = confirm('Please confirm hotel reservation');
+// console.log(isComing);
+
+// const hotelName = prompt('Please enter desired hotel name');
+// console.log(hotelName);
+
+// const valueA = '5';
+// console.log(Number(valueA)); // 5
+// console.log(typeof Number(valueA)); // "number"
+
+// const valueB = 'random string';
+// console.log(Number(valueB)); // NaN
+// console.log(typeof Number(valueB)); // "number"
+
+// const max = 10;
+// for (let i = 0; i < max; i += 1) {
+//   // console.log(`${max} % ${i} = `, max % i);
+//   const price = max % i;
+//   console.log(`${max} % ${i} = `, price);
+//}
+
+// for (let i = 0; i <= 5; i += 1) {
+//   console.log(i);
+
+//   if (i === 3) {
+//     console.log('Знайшли число 3, перериваємо виконання циклу');
+//     break;
+//   }
+// }
+
+// console.log('Лог після циклу');
+
+// const number = 10;
+
+// for (let i = 0; i < number; i += 1) {
+//   if (i % 2 === 0) {
+//     continue;
+//   }
+
+//   console.log('Непарне i: ', i); // 1, 3, 5, 7, 9
+//}//
