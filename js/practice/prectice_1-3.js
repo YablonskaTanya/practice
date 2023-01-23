@@ -74,11 +74,12 @@
 //менше з чисел a, b
 //Потрібно додати перевірку, що функція отримує числа
 
-function min(a, b) {
-  return a < b ? a : b;
-}
+// console.log(Number.isNaN(min));
+// function min(a, b) {
+//   return a < b ? a : b;
+// }
 
-console.log(min(30, 15));
+// console.log(min(30, 15));
 
 // if (Math.min(a, b) === NaN) {
 //   return false;
@@ -92,12 +93,52 @@ console.log(min(30, 15));
 
 // return Math.min(a, b);
 
-//===
+//======
 //Напишіть функцію caclculateAverage()
 //яка приймає довільну кількість
 //аргументів і повертає їхнє середнє значення.
 //Додати перевірку, що аргументи це числа.
+//==1
+// const arrayOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+// let total = 0;
+// console.log(total);
+// for (const item of arrayOfNumbers) {
+//   total += item;
+// }
+// const result = total / arrayOfNumbers.length;
+// console.log(Number.parseInt(result));
+// console.log(Number.isNaN(result));
+//===2
+// const caclculateAverage = function () {
+//   console.log(arguments);
+//console.log(Number.isNaN(arguments));
+//   let total = 0; //45
+//   for (const argument of arguments) {
+//     total += argument;
+//   }
+//   console.log(total);
+//   const result = total / arguments.length;
 
+//   console.log(result);
+//   return result;
+// };
+// caclculateAverage(1, 2, 3, 4, 5, 6, 7, 8, 9);
+//==3
+// const caclculateAverage = function () {
+//   console.log(arguments);
+//   let total = 0; //45
+//   for (let index = 0; index < arguments.length; index += 1) {
+//     const i = arguments[index];
+//     total += i;
+//   }
+//   console.log(total);
+//   const result = total / arguments.length;
+//   console.log(result); //0.1111111111
+//   console.log(Number.isNaN(arguments));
+
+//   return result;
+// };
+// caclculateAverage(1, 2, 3, 4, 5, 6, 7, 8, 9);
 //===
 //Напиши функцію findSmallerNumber(numbers)
 //яка шукає найменше число в масиві.
