@@ -146,3 +146,9 @@
 //add(name) додає курс до кінця колекції
 //removeCourse(name) видаляє курс із колекції
 //updateCourse(oldName, newName) змінює ім'я на нове
+
+function add(name) {}
+
+function removeCourse(name) {}
+
+function updateCourse(oldName, newName) {}
