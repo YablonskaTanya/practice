@@ -152,3 +152,5 @@ function add(name) {}
 function removeCourse(name) {}
 
 function updateCourse(oldName, newName) {}
+
+add([js, react, node, css, html]);
