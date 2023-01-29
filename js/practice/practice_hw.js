@@ -147,10 +147,10 @@
 //removeCourse(name) видаляє курс із колекції
 //updateCourse(oldName, newName) змінює ім'я на нове
 
-function add(name) {}
+// function add(name) {}
 
-function removeCourse(name) {}
+// function removeCourse(name) {}
 
-function updateCourse(oldName, newName) {}
+// function updateCourse(oldName, newName) {}
 
-add([js, react, node, css, html]);
+// add([js, react, node, css, html]);
