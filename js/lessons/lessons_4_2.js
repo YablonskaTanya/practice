@@ -108,6 +108,12 @@ const cars = [
     const sortByDescendingPrice = cars => {};
     console.table(sortByDescendingPrice(cars));
 */
+// const sortByDescendingPrice = cars => {
+//   const result = cars.sort((a, b) => b.price - a.price);
+
+//   return result;
+// };
+// console.table(sortByDescendingPrice(cars));
 /*
     ## Example 9 - Метод sort
     Нехай функція `sortByModel` повертає новий масив автомобілів відсортований
