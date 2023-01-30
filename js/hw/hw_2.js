@@ -335,7 +335,7 @@
 //   // Change code above this line
 // }
 
-// // 32
+// 32
 // function includes(array, value) {
 //   // Change code below this line
 //   for (let i = 0; i < array.length; i += 1) {
