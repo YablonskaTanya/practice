@@ -123,7 +123,12 @@ const cars = [
     console.table(sortByModel(cars, 'asc'));
     console.table(sortByModel(cars, 'desc'));
 */
-
+// const sortByModel = (cars, order) => {
+//   const newArray = cars.sort((a, b) => a.model.localeCompare(b.model));
+//   return newArray;
+// };
+// console.table(sortByModel(cars, 'asc'));
+// console.table(sortByModel(cars, 'desc'));
 /*
     ## Example 10 - Метод reduce
     Нехай функція `getTotalAmount` повертає загальну кількість автомобілів (значення
