@@ -162,7 +162,7 @@ const cars = [
 
 //   return total / args.length;
 // };
-
+//========
 //v1
 // const calсulateAverage = (...args) => {
 //   // let total = 0;
