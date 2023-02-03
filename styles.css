@@ -1,0 +1,16 @@
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  min-width: 100px;
+  min-height: 30px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
