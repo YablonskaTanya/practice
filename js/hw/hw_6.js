@@ -30,31 +30,31 @@
 
 //
 //
-//
-// const formEl = document.querySelector('.js-register-form');
 
-// formEl.addEventListener('submit', onFormSubmit);
+const formEl = document.querySelector('.js-register-form');
 
-// function onFormSubmit(event) {
-//   event.preventDefault();
-//   const formElements = event.currentTarget.elements;
-//   console.log(formElements);
-//   const mail = formElements.email.value;
-//   const password = formElements.password.value;
-//   const subscription = formElements.subscription.value;
-//   console.log(formElements);
-//   console.log(mail);
-//   console.log(password);
-//   console.log(subscription);
+formEl.addEventListener('submit', onFormSubmit);
 
-//   const formData = {
-//     mail,
-//     password,
-//     subscription,
-//   };
+function onFormSubmit(event) {
+  event.preventDefault();
+  const formElements = event.currentTarget.elements;
+  console.log(formElements);
+  const mail = formElements.email.value;
+  const password = formElements.password.value;
+  const subscription = formElements.subscription.value;
+  console.log(formElements);
+  console.log(mail);
+  console.log(password);
+  console.log(subscription);
 
-//   console.log(formData);
-// }
+  const formData = {
+    mail,
+    password,
+    subscription,
+  };
+
+  console.log(formData);
+}
 
 //FormData для збору інформації з усієї форми
 
