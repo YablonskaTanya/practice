@@ -1,21 +1,21 @@
-const refBox = document.querySelector('.js-box');
+// const refBox = document.querySelector('.js-box');
 
-refBox.addEventListener('mouseover', onMouseEnter);
+// refBox.addEventListener('mouseover', onMouseEnter);
 
-function onMouseEnter(event) {
-  const box = event.currentTarget;
-  box.classList.add('box--active');
-}
+// function onMouseEnter(event) {
+//   const box = event.currentTarget;
+//   box.classList.add('box--active');
+// }
 
-refBox.addEventListener('mouseleave', onMouseLeave);
+// refBox.addEventListener('mouseleave', onMouseLeave);
 
-function onMouseLeave(event) {
-  const box = event.currentTarget;
-  box.classList.remove('box--active');
-}
+// function onMouseLeave(event) {
+//   const box = event.currentTarget;
+//   box.classList.remove('box--active');
+// }
 
-refBox.addEventListener('mousemove', onMouseMove);
+// refBox.addEventListener('mousemove', onMouseMove);
 
-function onMouseMove(event) {
-  console.log(event);
-}
+// function onMouseMove(event) {
+//   console.log(event);
+// }
