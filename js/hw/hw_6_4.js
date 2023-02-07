@@ -1,21 +1,24 @@
-const refBox = document.querySelector('.js-box');
 
-refBox.addEventListener('mouseover', onMouseEnter);
+// const refBox = document.querySelector('.js-box');
 
-function onMouseEnter(event) {
-  const box = event.currentTarget;
-  box.classList.add('box--active');
-}
+// refBox.addEventListener('mouseover', onMouseEnter);
 
-refBox.addEventListener('mouseleave', onMouseLeave);
+// function onMouseEnter(event) {
+//   const box = event.currentTarget;
+//   box.classList.add('box--active');
+// }
 
-function onMouseLeave(event) {
-  const box = event.currentTarget;
-  box.classList.remove('box--active');
-}
+// refBox.addEventListener('mouseleave', onMouseLeave);
 
-refBox.addEventListener('mousemove', onMouseMove);
+// function onMouseLeave(event) {
+//   const box = event.currentTarget;
+//   box.classList.remove('box--active');
+// }
 
-function onMouseMove(event) {
-  console.log(event);
-}
+// refBox.addEventListener('mousemove', onMouseMove);
+
+// function onMouseMove(event) {
+//   console.log(event);
+// }
+
+
