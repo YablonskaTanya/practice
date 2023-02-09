@@ -119,6 +119,7 @@
 // colors.splice(2, 0, 'purple');
 // console.log(colors); // ["red", "green", "purple", "blue"]
 
+
 // 1. Оголошення параметрів x, y, z
 // function multiply(x, y, z) {
 //   console.log(`Результат множення дорівнює ${x * y * z}`);
@@ -283,3 +284,4 @@
 //   // Значення властивості
 //   console.log(book[key]);
 //}
+
