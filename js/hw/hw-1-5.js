@@ -284,6 +284,7 @@
 //   console.log(book[key]);
 //}
 
+
 // function multiply(firstNumber, secondNumber, ...otherArgs) {
 //   console.log(firstNumber); // Значення першого аргументу
 //   console.log(secondNumber); // Значення другого аргументу
@@ -339,3 +340,4 @@
 //   },
 //   // Change code above this line
 // };
+
