@@ -119,7 +119,6 @@
 // colors.splice(2, 0, 'purple');
 // console.log(colors); // ["red", "green", "purple", "blue"]
 
-
 // 1. Оголошення параметрів x, y, z
 // function multiply(x, y, z) {
 //   console.log(`Результат множення дорівнює ${x * y * z}`);
@@ -284,4 +283,61 @@
 //   // Значення властивості
 //   console.log(book[key]);
 //}
+
+
+// function multiply(firstNumber, secondNumber, ...otherArgs) {
+//   console.log(firstNumber); // Значення першого аргументу
+//   console.log(secondNumber); // Значення другого аргументу
+//   console.log(otherArgs); // Масив інших аргументів
+// }
+
+// multiply(1, 2);
+// multiply(1, 2, 3);
+// multiply(1, 2, 3, 4);
+
+//
+
+// const atTheOldToad = {
+//   potions: [
+//     { name: 'Speed potion', price: 460 },
+//     { name: 'Dragon breath', price: 780 },
+//     { name: 'Stone skin', price: 520 },
+//   ],
+//   // Change code below this line
+//   getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(newPotion) {
+//     for (const potion of this.potions) {
+//       if (potion.name === newPotion.name) {
+//         return `Error! Potion ${newPotion.name} is already in your inventory!`;
+//       }
+//     }
+//     const newProduct = {
+//       ...newPotion,
+//     };
+
+//     this.potions.push(newPotion);
+//   },
+//   removePotion(potionName) {
+//     for (let i = 0; i < this.potions.length; i += 1) {
+//       const potion = this.potions[i];
+//       if (potionName === potion.name) {
+//         this.potions.splice(i, 1);
+//       }
+//     }
+//   },
+//   updatePotionName(oldName, newName) {
+//     let resalt = `Potion ${oldName} is not in inventory`;
+//     for (let i = 0; i < this.potions.length; i += 1) {
+//       const potion = this.potions[i];
+
+//       if (oldName === potion.name) {
+//         potion.name = newName;
+//       }
+//     }
+//     return `Found ${oldName} change to ${newName} `;
+//   },
+//   // Change code above this line
+// };
 
